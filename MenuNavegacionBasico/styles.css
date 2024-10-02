@@ -6,7 +6,7 @@ body {
 }
 
 nav {
-    background-color:lightseagreen;
+    background-color:blue;
 }
 
 .menu {
@@ -50,12 +50,12 @@ nav {
 /* estea media queri se utiliza para aplicar estilos específicos cuando el ancho de la ventana del navegador es de 768 píxeles o menos*/
 
 
-@media only screen and (min-width: 300px) and (max-width:768px) {
+@media (max-width:768px) {
     .menu {
         
         flex-direction: column;
-        align-items: center;
-        justify-content: center;  
+        align-items: normal;
+        
     
     }
 
